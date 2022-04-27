@@ -1,0 +1,600 @@
+/**
+	commons
+	**/
+* {
+	margin:0; /*padding:0;*/
+	font-family:"맑은고딕";
+}
+header>div, div.content, div.carousel>section, footer>div.f1 {
+	width:1000px;
+	margin:auto;
+	/*border:1px solid red;*/
+}
+.title {
+	border-left:15px solid #333;
+	border-bottom:1px solid #333;
+	width:30%;
+	font-size:35px;
+	padding:3px 0 5px 25px;
+	margin:30px 0 30px 120px;
+}
+.content_layout {
+	/*border:1px solid blue;*/
+	width:60%;
+	margin:auto;
+}
+.btn_style {
+	background-color:tomato;
+	border:1px solid tomato;
+	font-size:14px;
+	font-weigth:900;
+	color:white;
+	width:20%;
+	padding:7px 0;
+}
+.btn_style2 {
+	background-color:tomato;
+	border:1px solid tomato;
+	border-radius : 4px;
+	font-size:14px;
+	font-weigth:900;
+	color:white;
+	width:17%;
+	padding:7px 0;
+}
+
+/**
+	header style 
+	*/	
+header {
+	width:100%;  height:149px;
+	background-image:url("http://localhost:9000/ins_mycgv/resources/images/bg_header.gif");
+}
+
+header>div>nav>ul {
+	/*border:1px solid blue;*/
+	list-style-type:none;
+	margin:0;  padding:3px 10px 0 0 ;
+	text-align:right;
+}
+header>div>nav>ul>li {
+	/*float:left;*/
+	display:inline-block;	
+}
+header>div>nav a {
+	text-decoration:none;
+	font-size:13px;
+	font-weight:bold;
+	color:#333;
+	padding:3px 8px;	
+	/*border:1px solid gray;*/
+}
+header>div>nav li>div {
+	background-color:lightgray;
+	width:1px; height:10px;
+	display:inline-block;
+}
+header>div>div {
+	/*border:2px solid blue;*/
+	display:inline-block;
+	width:100%;  height:200px;
+	position:relative;
+}
+header>div>div>a>img {
+	margin:32px 0 0 20px;
+	/*position:relative;*/
+}
+header>div>div>div {
+	position:absolute;
+	top:34px;
+	left:310px;
+	display:inline-block;	
+	text-align:center;
+}
+header>div>div>div ul {
+	list-style-type:none;
+	margin:0; padding:0;
+}
+header>div>div>div ul>li {
+	display:inline-block;
+}
+header>div>div>div a {
+	text-decoration:none;
+	font-size:20px;
+	font-weight:700;
+	color:#333;
+	margin:0 18px;
+}
+
+/**
+	index - content
+	**/
+div.content {
+	/*border:1px solid red;*/
+}	
+div.carousel {
+	background-image:url("http://localhost:9000/ins_mycgv/resources/images/bg_c_bricks.png");
+	text-align:center;
+}
+div.content>section:first-child>div, div.content>section:last-child>div {
+	/*border:1px solid blue;*/
+	text-align:center;
+	margin:30px 0;
+}
+div.content>section:first-child>article>iframe {
+	margin-right:10px;
+}
+div.content>section:first-child>article>img{
+	float:right;
+	width:245px;
+}
+div.content>section:first-child>article {
+	overflow:hidden;
+	height:388px;
+}
+
+div.content>section:last-child>article {
+	text-align:center;
+}
+div.content>section:last-child>article:nth-child(2) {
+	border-bottom:3px solid #333;	
+	padding-bottom:30px;
+	margin-bottom:40px;
+}
+
+div.content>section:last-child>article:nth-child(2)>img:nth-child(2) {
+	/*border:3px solid red;*/
+	margin:0 5px;
+}
+div.content>section:last-child>article:nth-child(2)>img:nth-child(3) {
+	/*border:3px solid red;*/
+	margin-right:5px;
+}
+div.content>section:last-child>article:nth-child(3)>img:first-child,
+div.content>section:last-child>article:nth-child(3)>img:last-child
+{
+	border:7px double black;
+	/*outline-color:black;
+	outline-style:double;
+	outline-width:7px;*/
+}
+div.content>section:last-child>article:nth-child(3)>img:nth-child(2)
+{
+	margin:0 7px;
+}
+/**
+	footer
+	**/
+footer {
+	/*border : 2px solid blue;*/	
+}	
+footer>div.d1 {
+	text-align:center;
+	background-color:rgb(242,174,177);
+	margin-top:60px;
+}
+footer>div.d1>img {
+	margin-top:-58px;
+}
+footer>div.f1 ul {
+	list-style-type:none;
+	margin:20px 0;
+}
+footer>div.f1 li {
+	display:inline-block;
+}
+footer>div.f1 li>a {
+	text-decoration:none;
+	font-size:13px;
+	font-weight:bold;
+	color:#333;
+	padding:0 3px;
+}
+footer>div.f1 li>div {
+	display:inline-block;
+	width:1px; height:10px;
+	background-color:gray;
+}
+footer div.d2>div {
+	width:750px;
+	display:inline-block;	
+	margin:0 30px;
+}
+footer div.d2>img {
+	float:left;
+	/*width:70px; height:70px;*/
+}
+footer div.d2>div>span {
+	color:gray;
+	font-size:13px;
+	padding:4px 0;
+}
+footer div.f2 { 
+	background-image:url("http://localhost:9000/ins_mycgv/resources/images/footer_bg.PNG");
+	height:150px;
+	margin-top:30px;
+}
+
+/**
+	로그인 화면
+	**/
+section.login ul {
+	/*border:1px solid red;*/
+	width:80%;
+	list-style-type:none;
+	margin:0; padding:0;
+}
+section.login ul>li {
+	padding:6px 0;
+}	
+section.login ul label {
+	background-color:lightgray;
+	display:inline-block;
+	width:35%;
+	text-align:center;
+	padding:7px 0;
+	border-radius:4px;
+	font-size:14px;
+	font-weight:bold;
+	float:left;
+	margin-right:7px;
+}
+section.login ul input {
+	border:1px solid gray;
+	border-radius:4px;
+	width:58%;
+	padding:6px 10px;
+}
+section.login ul>li:last-child {
+	/*border:1px solid green;*/
+	text-align:center;		
+	margin-top:15px;
+}	
+section.login ul>li:last-child>button[type="button"] {
+	margin-right:10px;
+}
+
+/**
+	회원가입 화면
+	**/
+section.join ul {
+	/*border:1px solid red;*/
+	list-style-type:none;
+	margi:0; padding:0;	
+}	
+section.join ul label {
+	background-color:lightgray;
+	display:inline-block;
+	width:25%;
+	text-align:center;
+	padding:7px 0;
+	border-radius:4px;
+	font-size:14px;
+	font-weight:bold;
+	float:left;
+	margin-right:7px;
+}	
+section.join ul li {
+	clear:left;
+	padding:5px 0;
+}
+section.join ul input.i1 {
+	border:1px solid gray;
+	border-radius:4px;
+	width:50%;
+	padding:5px 10px;
+}
+section.join ul input.i2, section.join ul select {
+	border:1px solid gray;
+	border-radius:4px;
+	width:20%;
+	padding:5px 10px;
+}
+section.join ul input[type="radio"] {
+	border:1px solid red;
+	width:5%;
+}
+section.join ul textarea {
+	width:72%; height:120px;
+	border-radius:4px;
+}
+section.join ul>li:last-child {
+	text-align:center;
+}
+section.join ul>li:last-child>button[type="button"] {
+	margin:10px 10px 0 0 ;
+}
+section.join ul input[type="radio"] + span,
+section.join ul input[type="checkbox"] + span  {
+	/*border:2px solid green;*/
+	font-size:14px;
+}
+section.join ul input[type="checkbox"] + span {
+	padding:0px 8px;
+}
+section.join ul>li:first-child>button {
+	width:17%;
+	padding:5px 0;
+	border-radius:4px;
+	background-color:rgb(117,234,117);
+	border:1px solid rgb(117,234,117);
+	margin-left:5px;
+}
+
+
+/**  
+	마이페이지, 관리자 :mycgv
+	**/
+section.mycgv>div, section.admin>div {
+	/*border:1px solid red; 
+	margin-left:100px;*/
+}	
+section.mycgv>div> div, section.admin>div>a {
+	/*border:1px solid blue;*/
+	display:inline-block;
+	padding:50px;	
+	color:white;
+	border-radius:4px;
+	font-size:14px;
+}
+section.mycgv>div>div:first-child{ 
+	background-color : lightgreen; 
+	margin:10px 20px 0 50px;}
+section.admin>div>a:first-child {
+	background-color : DodgerBlue;
+	margin:10px 20px 0 50px;
+}	
+section.mycgv>div>div:last-child {
+	background-color : tomato; 
+	margin:10px 20px 0 50px;}
+section.admin>div>a:last-child{
+	background-color : Violet;
+}
+section.admin>div>a:first-child, section.admin>div>a:last-child {
+	width:90px; 
+}	
+
+/** 게시판 공통  **/
+section.board_list table, section.board_list table th, section.board_list table td,
+section.board_write table, section.board_write table th, section.board_write table td,
+section.board_content table, section.board_content table th, section.board_content table td
+{
+		border:1px solid #333;	
+		border-collapse:collapse;
+}
+section.board_list table th, section.board_list table td,
+section.board_write table th, section.board_write table td,
+section.board_content table th, section.board_content table td {
+		padding:8px 0;
+		font-size:14px;
+		color:#333;
+		text-align:center;
+}
+section.board_list table th, section.board_write table th,
+section.board_content table th {
+	background-color : lightgray;
+	/*color:white;*/
+}
+
+/** 게시판 - 리스트 **/
+section.board_list table tr>td:nth-child(2) a {
+	text-decoration :none;
+}
+section.board_list table tr:first-child td {
+	text-align : right;
+	padding:0 10px 10px 0;
+	border:1px solid white;
+	border-bottom:1px solid #333;
+}
+section.board_list table tr:last-child td {
+	border:1px solid white;
+}
+section.board_list table tr:first-child button {
+	width:15%;
+	padding:5px 0;
+	border-radius:4px;
+	background-color:tomato;
+	border:1px solid tomato;
+	color:white;
+}
+
+/** 게시판 - 글쓰기 **/
+section.board_write table th {
+	width:20%;
+}
+section.board_write table td {
+	text-align:left;
+	padding-left:12px;
+}
+section.board_write table tr:last-child>td {
+	text-align:center;
+}
+section.board_write input, section.board_write textarea {
+	border:1px solid gray;
+	border-radius:4px;
+	width:93%;
+	padding:5px 10px;
+}
+section.board_write textarea {
+	height:120px;	
+}
+section.board_write table tr:nth-child(3) input {
+	border:1px solid white;
+}
+section.board_write table tr:last-child td {
+	border:1px solid white;
+	padding-top:20px;
+}
+section.board_write table button {
+	margin-right:5px;
+}
+
+/** 게시판 - 상세내용 **/
+section.board_content table tr:first-child td:nth-child(2) {
+	width:10%;
+}
+section.board_content table tr:nth-child(2) td, 
+section.board_content table tr:nth-child(3) td {
+	text-align:left;
+	text-indent:10px;
+}
+section.board_content table tr:last-child td {
+	border : 1px solid white;
+	padding-top:20px;
+}
+section.board_content table button {
+	margin-right:5px;
+}
+
+/** 게시판 - 삭제 **/
+section.board_delete h3 {
+	margin-bottom:15px;
+}
+section.board_delete img {
+	margin-bottom:20px;
+}
+section.board_delete button {
+	width:14%;
+}
+
+
+/** 공지사항 공통  **/
+section.notice_list table, section.notice_list table th, section.notice_list table td,
+section.notice_content table, section.notice_content table th, section.notice_content table td
+{
+		border:1px solid #333;	
+		border-collapse:collapse;
+}
+section.notice_list table th, section.notice_list table td,
+section.notice_content table th, section.notice_content table td {
+		padding:8px 0;
+		font-size:14px;
+		color:#333;
+		text-align:center;
+}
+section.notice_list table th, section.notice_content table th {
+	background-color : lightgray;
+	/*color:white;*/
+}
+
+/** 공지사항 - 리스트 **/
+section.notice_list table tr>td:nth-child(2) a {
+	text-decoration :none;
+}
+section.notice_list table tr:first-child td {
+	text-align : right;
+	padding:0 10px 10px 0;
+	border:1px solid white;
+	border-bottom:1px solid #333;
+}
+section.notice_list table tr:last-child td {
+	border:1px solid white;
+}
+section.notice_list table tr:first-child button {
+	width:15%;
+	padding:5px 0;
+	border-radius:4px;
+	background-color:tomato;
+	border:1px solid tomato;
+	color:white;
+}
+
+/** 공지사항- 상세내용 **/
+section.notice_content table tr:first-child td:nth-child(2) {
+	width:10%;
+}
+section.notice_content table tr:nth-child(2) td, 
+section.notice_content table tr:nth-child(3) td {
+	text-align:left;
+	text-indent:10px;
+}
+section.notice_content table tr:last-child td {
+	border : 1px solid white;
+	padding-top:20px;
+}
+section.notice_content table button {
+	margin-right:5px;
+}
+
+
+/**************************
+	관리자 - 회원 관리 공통
+**********************/
+section.member_list table, section.member_list table th, section.member_list table td,
+section.member_content table, section.member_content table th, section.member_content table td
+{
+		border:1px solid #333;	
+		border-collapse:collapse;
+}
+section.member_list table th, section.member_list table td,
+section.member_content table th, section.member_content table td {
+		padding:8px 0;
+		font-size:14px;
+		color:#333;
+		text-align:center;
+}
+section.member_list table th, section.member_content table th {
+	background-color : lightgreen;
+	/*color:white;*/
+}
+
+/**************************
+	관리자 - 회원 관리 리스트
+**********************/
+section.member_list table tr>td:nth-child(2) a {
+	text-decoration :underline;
+}
+section.member_list table tr>td:nth-child(2), 
+section.member_list table tr>td:nth-child(3){
+	width:17%;
+}
+section.member_list table tr>td:nth-child(5){
+	width:10%;
+}
+section.member_list table tr:first-child td {
+	text-align : right;
+	padding:0 10px 10px 0;
+	border:1px solid white;
+	border-bottom:1px solid #333;
+}
+section.member_list table tr:last-child td {
+	border:1px solid white;
+}
+section.member_list table tr>td:last-child button {
+	font-size:12px;
+	font-weight:bold;
+	padding:3px 8px;
+}
+
+/**************************
+	관리자 - 회원 관리 상세정보
+**********************/
+section.member_content table tr:first-child td:nth-child(2) {
+	width:10%;
+}
+section.member_content table tr:nth-child(2) td, 
+section.member_content table tr:nth-child(3) td {
+	text-align:left;
+	text-indent:10px;
+}
+section.member_content table tr:last-child td {
+	border : 1px solid white;
+	padding-top:20px;
+}
+section.member_content table button {
+	margin-right:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
